@@ -30,7 +30,7 @@ function Game( {secretWord} ) {
 
     useEffect(() => {
         pageLoadedSetFocus();
-        console.log('D ' + secretWord)
+        console.log('Secret: ' + secretWord)
     },[]) //ask to remove []?
 
     useEffect(() => {

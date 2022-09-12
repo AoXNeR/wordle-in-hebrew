@@ -7,7 +7,6 @@ function Guess({index, guess, secretWord}) {
     const colors = [];
     letters.forEach( (letter, index) => {
         if (letter === secretWord[index]) {
-            console.log('M: ' + secretWord[index])
             colors.push('green')
         }else if (secretWord.includes(letter)) {
             colors.push('yellow')
