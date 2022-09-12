@@ -4,7 +4,6 @@ import './Guess.css'
 function Guess({index, guess, secretWord}) {
     
     const letters = [...guess]
-    console.log(letters);
     const colors = [];
     letters.forEach( (letter, index) => {
         if (letter === secretWord[index]) {
