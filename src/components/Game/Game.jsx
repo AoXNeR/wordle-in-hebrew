@@ -18,7 +18,6 @@ function Game( {secretWord} ) {
             setGuess(e.target.value);
         }
         
-        console.log('C ' + guess) // why its showing prev input
     }
 
     const setGameStateWon = () => {
